@@ -100,6 +100,11 @@ public class GemHunters
         // Adjust this part according to your actual implementation
         // Update the player's position and score accordingly
     }
+    static void MovePlayerDown(char[,] board, char playerSymbol, char playerNumber, ref int score)
+    {
+        // Similar to MovePlayerUp, but for moving down
+    }
+
 
 
 
