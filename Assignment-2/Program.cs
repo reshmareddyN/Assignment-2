@@ -14,6 +14,11 @@ public class GemHunters
         for (int turn = 0; turn < 30; turn++)
         {
             DisplayBoard(board);
+            // Player 1's turn
+            Console.WriteLine("Player 1's turn:");
+            player1Score += MovePlayer(board, 'P', '1');
+
+            DisplayBoard(board);
 
 
 
