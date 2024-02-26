@@ -104,6 +104,10 @@ public class GemHunters
     {
         // Similar to MovePlayerUp, but for moving down
     }
+    static void MovePlayerLeft(char[,] board, char playerSymbol, char playerNumber, ref int score)
+    {
+        // Similar to MovePlayerUp, but for moving left
+    }
 
 
 
