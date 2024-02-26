@@ -24,6 +24,12 @@ public class GemHunters
             player2Score += MovePlayer(board, 'P', '2');
         }
 
+        // Display final scores
+        Console.WriteLine("Game over!");
+        Console.WriteLine($"Player 1's score: {player1Score}");
+        Console.WriteLine($"Player 2's score: {player2Score}");
+
+
 
 
 
