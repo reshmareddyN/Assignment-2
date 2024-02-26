@@ -73,6 +73,25 @@ public class GemHunters
         int score = 0;
         Console.WriteLine("Enter your move (U/D/L/R):");
         char move = char.ToUpper(Console.ReadKey().KeyChar)
+            // Move the player according to the input
+        switch (move)
+        {
+            case 'U':
+                MovePlayerUp(board, playerSymbol, playerNumber, ref score);
+                break;
+            case 'D':
+                MovePlayerDown(board, playerSymbol, playerNumber, ref score);
+                break;
+            case 'L':
+                MovePlayerLeft(board, playerSymbol, playerNumber, ref score);
+                break;
+            case 'R':
+                MovePlayerRight(board, playerSymbol, playerNumber, ref score);
+                break;
+        }
+
+        return score;
+    }
 
 
 
