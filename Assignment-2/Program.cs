@@ -19,6 +19,10 @@ public class GemHunters
             player1Score += MovePlayer(board, 'P', '1');
 
             DisplayBoard(board);
+            // Player 2's turn
+            Console.WriteLine("Player 2's turn:");
+            player2Score += MovePlayer(board, 'P', '2');
+        }
 
 
 
