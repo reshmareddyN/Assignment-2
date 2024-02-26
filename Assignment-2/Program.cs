@@ -68,6 +68,11 @@ public class GemHunters
             Console.WriteLine();
         }
     }
+    static int MovePlayer(char[,] board, char playerSymbol, char playerNumber)
+    {
+        int score = 0;
+        Console.WriteLine("Enter your move (U/D/L/R):");
+        char move = char.ToUpper(Console.ReadKey().KeyChar)
 
 
 
