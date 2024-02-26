@@ -28,6 +28,14 @@ public class GemHunters
         Console.WriteLine("Game over!");
         Console.WriteLine($"Player 1's score: {player1Score}");
         Console.WriteLine($"Player 2's score: {player2Score}");
+        if (player1Score > player2Score)
+            Console.WriteLine("Player 1 wins!");
+        else if (player2Score > player1Score)
+            Console.WriteLine("Player 2 wins!");
+        else
+            Console.WriteLine("It's a tie!");
+    }
+
 
 
 
