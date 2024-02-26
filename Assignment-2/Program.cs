@@ -35,6 +35,26 @@ public class GemHunters
         else
             Console.WriteLine("It's a tie!");
     }
+    static void InitializeBoard(char[,] board)
+    {
+        // Fill the board with gems and obstacles
+        Random random = new Random();
+        for (int i = 0; i < 5; i++)
+        {
+            int x = random.Next(6);
+            int y = random.Next(6);
+
+            // Place gem
+            board[y, x] = 'G';
+
+            // Place obstacle
+            x = random.Next(6);
+            y = random.Next(6);
+            board[y, x] = 'O';
+        }
+    }
+
+    static void DisplayBoard(char[,] board)
 
 
 
