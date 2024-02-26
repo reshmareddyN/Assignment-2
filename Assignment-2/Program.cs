@@ -55,6 +55,20 @@ public class GemHunters
     }
 
     static void DisplayBoard(char[,] board)
+         static void DisplayBoard(char[,] board)
+    {
+        // Display the current state of the board
+        for (int i = 0; i < 6; i++)
+        {
+            for (int j = 0; j < 6; j++)
+            {
+                Console.Write(board[i, j] == '\0' ? '-' : board[i, j]);
+                Console.Write(" ");
+            }
+            Console.WriteLine();
+        }
+    }
+
 
 
 
