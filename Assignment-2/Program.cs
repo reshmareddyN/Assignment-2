@@ -92,6 +92,14 @@ public class GemHunters
 
         return score;
     }
+    static void MovePlayerUp(char[,] board, char playerSymbol, char playerNumber, ref int score)
+    {
+        // Move the player up and update score if a gem is collected
+        // For simplicity, assuming player position is known
+        // and there is no obstacle blocking the movement
+        // Adjust this part according to your actual implementation
+        // Update the player's position and score accordingly
+    }
 
 
 
